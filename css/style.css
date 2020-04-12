@@ -1,0 +1,128 @@
+body{
+	font: 400 28px/1.4 Nunito, sans-serif;
+	color: #2d2058;
+	background: url(../img/bg.png) no-repeat right top ;
+	background-size: 50vw;
+}
+h1,h2,h3,h4,h5,h6{
+	font: 700 52px/1.2 'Playfair Display', serif;
+	margin: 0 0 150pxs;
+}
+h1{
+	font-size: 76px;
+	line-height: 1.3;
+	margin: 0 0 70px;
+}
+a{
+	color: #723182;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1645px;
+}
+
+/* Typography */s
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+.ba-header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding-top: 70px;
+}
+.ba-header__inner{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.ba-nav__list{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	list-style: none;
+}
+.ba-nav__item{
+	padding-left: 70px;
+	line-height: 1;
+}
+.ba-nav__link{
+	display: block;
+	color: #723182;
+	font: 600 22px/0.7 Nunito, sans-serif;
+}
+.ba-nav__link--bottom{
+	background: linear-gradient( -8deg, rgb(154,44,183) 0%, rgb(173,131,242) 100%);
+	height: 53px;
+	line-height: 53px;
+	padding: 0 45px;
+	border-radius: 26.5px;
+}
+.ba-logo__img{
+	display: block;
+}
+.ba-section-intro{
+	background: url(../img/left.png) no-repeat left bottom;
+}
+.ba-section-intro__inner{
+	width: 50%;
+	min-height: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+
+
+
+
+
+
+ 
