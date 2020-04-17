@@ -1,0 +1,21 @@
+<svg id="Group_4.svg" data-name="Group 4.svg" xmlns="http://www.w3.org/2000/svg" width="107.97" height="111.12" viewBox="0 0 107.97 111.12">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fdc800;
+        opacity: 0.65;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #44224b;
+        opacity: 0.8;
+      }
+    </style>
+  </defs>
+  <path id="Ellipse_11_copy_2" data-name="Ellipse 11 copy 2" class="cls-1" d="M1225.95,1595.59a44.735,44.735,0,1,1-44.73,44.74A44.739,44.739,0,0,1,1225.95,1595.59Z" transform="translate(-1162.72 -1573.94)"/>
+  <path class="cls-2" d="M1229.39,1573.94h-59.26a7.443,7.443,0,0,0-7.4,7.44v66.95l14.81-14.88h51.85a7.435,7.435,0,0,0,7.4-7.43v-44.64A7.443,7.443,0,0,0,1229.39,1573.94Zm0,52.08h-51.85l-7.41,7.43v-52.07h59.26v44.64Zm-48.15-26.04h7.41v7.44h-7.41v-7.44Zm14.82,0h7.4v7.44h-7.4v-7.44Zm14.81,0h7.41v7.44h-7.41v-7.44Z" transform="translate(-1162.72 -1573.94)"/>
+</svg>
