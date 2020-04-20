@@ -22,6 +22,9 @@
 						<img src="img/logo.png" class="ba-logo__img" alt="logo">
 					</a>
 					<!--/. ba-logo -->
+						
+					
+					
 					<div class="ba-nav">
 						<ul class="ba-nav__list">
 							<li class="ba-nav__item">
@@ -56,6 +59,10 @@
 						<!-- /.ba-nav__list -->
 					</div>
 					<!-- /.ba-nav -->
+					<button class="ba-menu-toggle" aria-label="Open menu" title="Open menu">
+						<span></span>
+					</button>
+					<!-- /.ba-menu-toggle -->
 				</div>
 				<!-- /.ba-header__inner -->
 			</div>
@@ -69,18 +76,18 @@
 						tomorrow's innovation</h1>
 						<p>Accelerating research discovery to shape a better future  </p>
 						<div class="ba-form">
-							<form action="action" post="get" class="ba-search">
+							<form action="action" method="post" class="ba-search">
 								<input type="search" required placeholder="Seacrh books, articles, keywords ">
-								<bottom type="submit" class="ba-bottom-heder">
+								<button type="submit" class="ba-button-heder">
 									<svg 
 									xmlns="http://www.w3.org/2000/svg"
 									xmlns:xlink="http://www.w3.org/1999/xlink"
 									width="36px" height="36px">
-								  <path fill-rule="evenodd"  opacity="0.6" fill="rgb(68, 34, 75)"
+								  <path fill-rule="evenodd"  opacity="0.6" fill="currentColor"
 									d="M26.387,23.209 L24.718,23.209 L24.127,22.639 C26.661,19.686 27.971,15.657 27.253,11.374 C26.260,5.509 21.360,0.826 15.447,0.109 C6.514,-0.989 -1.004,6.522 0.094,15.445 C0.812,21.352 5.500,26.247 11.371,27.238 C15.658,27.955 19.692,26.647 22.649,24.116 L23.219,24.707 L23.219,26.373 L32.194,35.339 C33.060,36.204 34.475,36.204 35.341,35.339 C36.207,34.474 36.207,33.060 35.341,32.196 L26.387,23.209 ZM13.715,23.209 C8.457,23.209 4.212,18.969 4.212,13.715 C4.212,8.463 8.457,4.222 13.715,4.222 C18.974,4.222 23.219,8.463 23.219,13.715 C23.219,18.969 18.974,23.209 13.715,23.209 Z"/>
 								  </svg>
-								</bottom>
-								<!-- /.ba-bottom-heder -->
+								</button>
+								<!-- /.ba-button-heder -->
 							</form>
 							<!-- /.ba-form-search -->
 						</div>
@@ -91,14 +98,14 @@
 			<!-- /.ba-container -->
 		</div>
 		<!-- /.ba-section-intro -->
-		<div class="ba-section-res">
+		<section class="ba-section-res">
 			<div class="ba-container">
 				<div class="ba-section-res__inner">
 					<h2 class="ba-section-res__title"><span>Our</span> resources</h2>
 					<div class="ba-row">
 						<div class="ba-col">
 							<a href="#" class="ba-res">
-								<img src="img/Group 2.svg" alt="">
+								<img src="img/Group2.svg" alt="">
 							
 								<h3 class="ba-res__title">Researchers</h3>
 							</a>
@@ -111,7 +118,7 @@
 							
 						</div>
 						<!-- /.ba-row-3 -->
-						<div class="ba-3">
+						<div class="ba-col">
 							<a href="#" class="ba-res">
 								<img src="img/Group3.svg" alt="">
 								<h3 class="ba-res__title">Librarian</h3>
@@ -126,7 +133,7 @@
 						<!-- /.ba-row-3 -->
 						<div class="ba-col">
 							<a href="#" class="ba-res">
-								<img src="img/Group 4.svg" alt="">
+								<img src="img/Group4.svg" alt="">
 								<h3 class="ba-res__title">Societies</h3>
 							</a>
 							<div class="ba-res-text">
@@ -139,7 +146,7 @@
 						<!-- /.ba-row-3 -->
 						<div class="ba-col">
 							<a href="#" class="ba-res">
-								<img class="ba-res__img" src="img/Group 6.svg" alt="">
+								<img class="ba-res__img" src="img/Group6.svg" alt="">
 								<h3 class="ba-res__title">Authors</h3>
 							</a>
 							<div class="ba-res-text">
@@ -157,10 +164,43 @@
 
 			</div>
 			<!-- /.ba-container -->
+		</section>
+		<section class="ba-section-libr">
+		<div class="ba-container">
+			<div class="ba-section-libr__content">
+				<h2>
+					<span>Our</span> libraries
+				</h2>
+				<p>Your reading list is a good place to start, but you will be 
+					expected to read more widely too. Use Sevi to search for information on your topic, and to find books, journal 
+					articles and other materials in the Library.</p>
+					<a href="#" class="ba-section-libr__link ba-section-libr__link--button">Learn More</a>
+			</div>
+			<!-- /.ba-section-libr -->
 		</div>
+		<!-- /.ba-container -->
 		<!-- /.ba-section -->
+		</section>
+		<section class="ba-section-create">
+			<div class="ba-container">
+				<div class="ba-section-create__content">
+					<h2><span>Create</span> your own 
+						mobile library</h2>
+						<p>Create your own library on your phone easily with Sevi 
+							mobile app. Get it free on Google Play Store for android 
+							and Download on the App Store for iOS for free.</p>
+				</div>
+				<!-- /.ba-section-create__content -->
+			</div>
+			<!-- /.ba-container -->
+		</section>
 	</main>
-
+	<script>
+		let menuBtn = document.querySelector('.ba-menu-toggle');
+		let menu = document.querySelector('.ba-nav');
+	
+		menuBtn.addEventListener('click', () => menu.classList.toggle('open'));
+	</script>
 
 </body>
 </html>
